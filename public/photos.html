@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Boda Nanci & Luis</title>
+    </head>
+    <body>
+        <h1>Bienvenido a Cabimax</h1>
+        <div id="camera">
+            <div class="camera--button">
+                <button id="start-camera">Prende la camara</button>
+                <img src="camara.png" alt="camara fotográfica" />
+            </div>
+            <video id="video" autoplay></video>
+            <button id="click-photo">Capturar</button>
+        </div>
+        <div class="photo-print">
+            <canvas id="canvas" width="320" height="240"></canvas>
+            <button id="click-photo">Imprime tu foto</button>
+        </div>
+        <div class="barmenu">
+            <ul>
+                <li>Capturar</li>
+                <li>Fotos</li>
+                <li>Mis fotos</li>
+            </ul>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
